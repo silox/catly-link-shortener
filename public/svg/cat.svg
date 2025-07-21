@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="75"
+   height="75"
+   viewBox="0 0 75 75"
+   fill="none"
+   version="1.1"
+   id="svg141"
+   sodipodi:docname="cat.svg"
+   inkscape:version="1.2-alpha1 (b6a15bb, 2022-02-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview143"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="3.1466667"
+     inkscape:cx="37.817796"
+     inkscape:cy="37.5"
+     inkscape:window-width="1309"
+     inkscape:window-height="430"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg141" />
+  <g
+     clip-path="url(#clip0_53_422)"
+     id="g134"
+     style="fill:#000000">
+    <path
+       d="M42.5669 28.125C39.6108 28.125 26.9194 28.415 18.75 40.7153V28.125C18.75 20.3701 12.4424 14.0625 4.6875 14.0625C2.09912 14.0625 0 16.1616 0 18.75C0 21.3384 2.09912 23.4375 4.6875 23.4375C7.27148 23.4375 9.375 25.541 9.375 28.125V65.625C9.375 70.7959 13.5791 75 18.75 75H44.5312C45.8262 75 46.875 73.9512 46.875 72.6562V70.3125C46.875 67.7241 44.7759 65.625 42.1875 65.625H37.5L56.25 51.5625V72.6562C56.25 73.9512 57.2988 75 58.5938 75H63.2812C64.5762 75 65.625 73.9512 65.625 72.6562V42.46C64.1177 42.8511 62.5649 43.125 60.9375 43.125C51.8833 43.125 44.3086 36.6724 42.5669 28.125ZM65.625 14.0625H56.25L46.875 4.6875V24.375C46.875 32.1416 53.1709 38.4375 60.9375 38.4375C68.7041 38.4375 75 32.1416 75 24.375V4.6875L65.625 14.0625ZM55.0781 25.7812C53.7832 25.7812 52.7344 24.7324 52.7344 23.4375C52.7344 22.1426 53.7832 21.0938 55.0781 21.0938C56.373 21.0938 57.4219 22.1426 57.4219 23.4375C57.4219 24.7324 56.373 25.7812 55.0781 25.7812ZM66.7969 25.7812C65.502 25.7812 64.4531 24.7324 64.4531 23.4375C64.4531 22.1426 65.502 21.0938 66.7969 21.0938C68.0918 21.0938 69.1406 22.1426 69.1406 23.4375C69.1406 24.7324 68.0918 25.7812 66.7969 25.7812Z"
+       fill="#242325"
+       id="path132"
+       style="fill:#000000" />
+  </g>
+  <defs
+     id="defs139">
+    <clipPath
+       id="clip0_53_422">
+      <rect
+         width="75"
+         height="75"
+         fill="white"
+         id="rect136" />
+    </clipPath>
+  </defs>
+</svg>

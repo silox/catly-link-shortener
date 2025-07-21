@@ -1,0 +1,15 @@
+[Unit]
+Description=Short linkener next.js
+After=network.target
+StartLimitIntervalSec=0
+AssertPathExists=/data/gitclone/pb138-link-shortener
+
+[Service]
+Type=simple
+Restart=never
+User=root
+WorkingDirectory=/data/gitclone/pb138-link-shortener
+ExecStart=yarn start
+
+[Install]
+WantedBy=multi-user.target

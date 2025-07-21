@@ -1,0 +1,25 @@
+default:
+  image: alpine:3.14
+  tags:
+    - shared-fi
+
+linter:
+  stage: test
+  script:
+    - apk add -uq npm
+    - npm install -g yarn
+    - yarn install
+    - yarn lint
+
+deploy_staging:
+  stage: deploy
+  script:
+    - apk add -u sshpass openssh
+    - sshpass -p "${CI_DEPLOY_PASSWORD}" ssh -o StrictHostKeyChecking=accept-new ${CI_DEPLOY_USER}@${CI_DEPLOY_IP} "./deploy.sh "${CI_JOB_TOKEN}" "${NEXT_PUBLIC_SUPABASE_URL}" "${NEXT_PUBLIC_SUPABASE_ANON_KEY}" "${NEXT_PUBLIC_SUPABASE_SERVICE_KEY}""
+  environment:
+    name: staging
+  rules:
+    - if: $CI_COMMIT_BRANCH == 'main'
+      when: manual
+    
+      
