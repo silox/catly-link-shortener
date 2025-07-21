@@ -1,6 +1,6 @@
-# Pb138 Link Shortener
+# Catly Link Shortener
 
-Analytic link shortener project.
+Analytic link shortener project written in Next.js
 
 ## Local development
 Create `.env.local` file on the root of the project.  
